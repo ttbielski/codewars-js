@@ -1,7 +1,13 @@
-// Link: https://www.codewars.com/kata/5a023c426975981341000014/train/javascript
+// Link: https://www.codewars.com/kata/56f69d9f9400f508fb000ba7/train/javascript
 
 // SOLUTION ///////////////////////////////////////////////////////////////////
 
-function otherAngle(a, b) {
-  return 180 - (a + b);
+function monkeyCount(n) {
+  const monkeys = [];
+  
+  for (let i = 1; i <= n; i++) {
+    monkeys.push(i);
+  }
+  
+  return monkeys;
 }
